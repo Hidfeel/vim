@@ -34,3 +34,6 @@ nmap wm :WMToggle<cr>
 "在工程中快速查找。
 "将grep.vim复制到C:\Program Files\Vim\vim72\plugin，在_vimrc中添加：
 nnoremap <silent> <F3> :Grep<CR>
+
+
+set ff=unix
