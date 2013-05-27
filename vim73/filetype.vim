@@ -138,6 +138,9 @@ au BufNewFile,BufRead *.art			setf art
 " ASN.1
 au BufNewFile,BufRead *.asn,*.asn1		setf asn
 
+"AS3.0
+au BufNewFile,BufRead *.as 			setf actionscript
+
 " Active Server Pages (with Visual Basic Script)
 au BufNewFile,BufRead *.asa
 	\ if exists("g:filetype_asa") |
